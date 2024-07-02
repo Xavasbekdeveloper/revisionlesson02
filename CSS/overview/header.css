@@ -1,0 +1,77 @@
+header {
+    padding: 31px 0;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hamburger__btn {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__name__title {
+    color: #252733;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}
+
+.header__name__img {
+    border: 2px solid #DFE0EB;
+    border-radius: 50%;
+}
+
+
+.overview__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.overview__title {
+    color: #000;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.overview__btn__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.overview__add__btn {
+    cursor: pointer;
+    padding: 8px 19px;
+    border-radius: 5px;
+    border: 1px solid #10CD45;
+    background-color: #10CD45;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: all 0.4s ease-in-out;
+}
+
+.overview__add__btn:hover {
+    background-color: transparent;
+    color: #10CD45;
+}

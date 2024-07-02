@@ -1,0 +1,126 @@
+.tickets__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tickets__btn__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 20px;
+}
+
+.tickets__add__btn {
+    cursor: pointer;
+    padding: 8px 19px;
+    border-radius: 5px;
+    border: 1px solid #10CD45;
+    background-color: #10CD45;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: all 0.4s ease-in-out;
+}
+
+.tickets__add__btn:hover {
+    background-color: transparent;
+    color: #10CD45;
+}
+
+.tickets__title2 {
+    color: #252733;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    border: none;
+}
+
+
+table {
+    width: 100%;
+    text-align: left;
+    border-radius: 8px;
+    border: 1px solid #DFE0EB;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+th, td {
+    height: 77px;
+    padding-left: 32px;
+    border-bottom: 1px solid #DFE0EB;
+}
+
+th {
+    color: #9FA2B4;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.tickets__name {
+    color: #252733;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}
+
+.tickets__name__text {
+    color: #C5C7CD;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.1px;
+}
+
+
+.tickets__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.tickets__wrapper img {
+    border-radius: 50%;
+}
+
+.tickets__btn {
+    cursor: pointer;
+    border-radius: 100px;
+    border: 1px solid #F12B2C;
+    background-color: #F12B2C;
+    padding: 5px 12px;
+    color: #FFF;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.low__btn {
+    background-color: #FEC400;
+    border: none;
+}
+
+.normal__btn {
+    background-color: #29CC97;
+    border: none;
+}
+
+.tickets__more__btn {
+    border: none;
+    background-color: transparent;
+}
+
